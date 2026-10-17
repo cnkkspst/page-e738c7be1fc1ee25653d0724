@@ -1,0 +1,345 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>迅蜂(Quick) - 让网络轻盈如风</title><meta name="description" content="迅蜂(Quick) 为你打造轻快、稳定的网络连接体验，从日常浏览到流媒体与游戏加速，总有一套合适你的方案。"><meta name="keywords" content="迅蜂,Quick,网络加速,流媒体解锁,专线优化"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-df2c4062b8.gxzjj.cn/"><meta property="og:type" content="website"><meta property="og:title" content="迅蜂(Quick) - 让网络轻盈如风"><meta property="og:description" content="迅蜂(Quick) 为你打造轻快、稳定的网络连接体验，从日常浏览到流媒体与游戏加速，总有一套合适你的方案。"><meta property="og:url" content="https://p-df2c4062b8.gxzjj.cn/"><meta property="og:site_name" content="迅蜂(Quick)"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-df2c4062b8.gxzjj.cn/", "name": "迅蜂(Quick) - 让网络轻盈如风", "description": "迅蜂(Quick) 为你打造轻快、稳定的网络连接体验，从日常浏览到流媒体与游戏加速，总有一套合适你的方案。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="e738c7be1fc1ee25653d0724:01c1b804bbffe8c9b0b5e67be76a471b4bcea9378a6c909565b0032fcfefafa5:c470091a25504a437b23"></head><body id="top"><style>
+:root{--bg:#5C1A1B;--paper:#FBF6EC;--ink:#2A1010;--wine:#5C1A1B;--wine-deep:#3A0F10;--gold:#C2A24A;--line:#E6DCC4}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",system-ui,sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+
+/* 左侧竖排目录 */
+.rail{position:fixed;top:0;left:0;width:68px;height:100vh;background:var(--wine-deep);color:var(--paper);display:flex;flex-direction:column;align-items:center;padding:22px 0;z-index:20}
+.rail .brand-mark{writing-mode:vertical-rl;font-size:14px;letter-spacing:6px;font-weight:600;color:var(--gold);margin-bottom:auto}
+.rail nav{writing-mode:vertical-rl;display:flex;gap:22px;font-size:13px;letter-spacing:3px}
+.rail nav a{opacity:.75;padding:4px 2px;border-left:1px solid transparent;transition:opacity .2s}
+.rail nav a:hover{opacity:1;color:var(--gold)}
+
+.wrap{margin-left:68px}
+
+/* HERO 海报式 */
+.hero{min-height:100vh;background:var(--wine);color:var(--paper);display:flex;flex-direction:column;justify-content:center;padding:60px 8vw 50px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-10vw;bottom:-20vh;width:60vw;height:60vw;border-radius:50%;background:radial-gradient(circle at 30% 30%, rgba(194,162,74,.25), transparent 60%);pointer-events:none}
+.hero h1{font-size:clamp(80px,18vw,260px);line-height:.85;font-weight:900;margin:0;letter-spacing:-6px;color:var(--paper)}
+.hero h1 .accent{color:var(--gold)}
+.hero .lede{max-width:560px;margin-top:28px;font-size:clamp(16px,1.6vw,22px);color:#F0E6D0}
+.hero .meta{margin-top:38px;display:flex;flex-wrap:wrap;gap:30px;font-size:13px;letter-spacing:2px;color:var(--gold)}
+.hero .meta span{border:1px solid rgba(194,162,74,.4);padding:8px 14px}
+
+/* 通用 section */
+section{padding:90px 8vw}
+h2{font-size:clamp(28px,3.4vw,46px);margin:0 0 16px;color:var(--wine);font-weight:800;letter-spacing:-1px}
+h3{margin:24px 0 10px;color:var(--wine-deep);font-weight:700}
+p{margin:0 0 16px}
+
+.intro{border-top:1px solid var(--line)}
+.intro p{max-width:780px;font-size:18px;color:#3a2424}
+
+/* 卡片：粗描边直角 */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:0;border:2px solid var(--wine)}
+.card{border:2px solid var(--wine);margin:-2px -2px 0 0;padding:30px 26px;background:var(--paper)}
+.card .num{font-size:13px;letter-spacing:3px;color:var(--gold);font-weight:700}
+.card h3{font-size:22px;margin:10px 0 8px}
+.card p{font-size:15px;color:#4d2b2b}
+
+/* 套餐：阶梯式 */
+.plans{background:#F4ECDA}
+.plans-list{display:flex;flex-direction:column;gap:18px;max-width:920px}
+.plan{border:2px solid var(--wine);background:var(--paper);padding:28px 30px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
+.plan.tier-1{margin-left:0;width:100%}
+.plan.tier-2{margin-left:5%;width:95%;border-color:var(--wine-deep);background:#FFFBF1}
+.plan.tier-3{margin-left:10%;width:90%;background:var(--wine);color:var(--paper);border-color:var(--wine-deep)}
+.plan.tier-3 h3,.plan.tier-3 .price{color:var(--paper)}
+.plan.tier-3 ul{color:#F0E6D0}
+.plan.tier-3 li::marker{color:var(--gold)}
+
+.plan .featured-tag{display:inline-block;font-size:12px;letter-spacing:2px;background:var(--gold);color:var(--wine-deep);padding:3px 10px;margin-bottom:8px;font-weight:700}
+.plan h3{font-size:26px;margin:0 0 4px}
+.plan .price{font-size:30px;font-weight:800;color:var(--wine)}
+.plan .annual{font-size:13px;color:#7a5252;margin-top:2px}
+.plan ul{margin:10px 0 0;padding-left:18px;font-size:14px}
+.plan li{margin:4px 0}
+.plan .buy{border:2px solid currentColor;padding:10px 18px;font-size:13px;letter-spacing:2px;display:inline-block;font-weight:700}
+.plan.tier-3 .buy{border-color:var(--gold);color:var(--gold)}
+
+/* 客户端 */
+.clients .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0;border:2px solid var(--wine)}
+.client{border:2px solid var(--wine);margin:-2px -2px 0 0;padding:24px}
+.client h3{font-size:18px;margin:0 0 6px}
+.client .platform{font-size:12px;letter-spacing:2px;color:var(--gold);font-weight:700}
+.client p{font-size:14px;margin:8px 0 0}
+
+/* FAQ 分组 */
+.faq{background:#F4ECDA;border-top:2px solid var(--wine)}
+.faq-group{margin-bottom:46px}
+.faq-group > h3{font-size:20px;letter-spacing:2px;border-left:4px solid var(--gold);padding-left:12px}
+.qa{border-bottom:1px dashed #c9a57a;padding:16px 0}
+.qa .q{font-weight:700;color:var(--wine-deep);margin-bottom:6px}
+.qa .a{font-size:15px;color:#3a2424}
+
+/* 使用说明 */
+.steps{counter-reset:step;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px}
+.step{border:2px solid var(--wine);background:var(--paper);padding:26px;position:relative}
+.step::before{counter-increment:step;content:counter(step,decimal-leading-zero);position:absolute;top:14px;right:18px;font-size:32px;font-weight:900;color:var(--gold)}
+.step h3{font-size:18px;margin-top:0}
+
+/* 页脚 */
+footer{background:var(--wine-deep);color:var(--paper);padding:60px 8vw}
+footer .row{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px}
+footer p{opacity:.85;font-size:14px;max-width:600px}
+footer .small{font-size:12px;opacity:.6;margin-top:20px}
+
+@media (max-width:720px){
+  .rail{width:48px}
+  .rail .brand-mark{font-size:11px;letter-spacing:4px}
+  .rail nav{font-size:11px;gap:14px}
+  .wrap{margin-left:48px}
+  section{padding:60px 6vw}
+  .hero{padding:50px 6vw}
+  .plan{grid-template-columns:1fr;margin-left:0!important;width:100%!important}
+}
+</style><aside class="rail" aria-label="侧边目录">
+  <div class="brand-mark">迅蜂 QUICK</div>
+  <nav>
+    <a href="#about">关于</a>
+    <a href="#plans">套餐</a>
+    <a href="#clients">客户端</a>
+    <a href="#guide">使用</a>
+    <a href="#faq">问答</a>
+  </nav>
+</aside>
+
+<main class="wrap">
+
+  <header class="hero" id="top">
+    <h1>迅蜂(Quick) · 迅<span class="accent">蜂</span><br>Quick</h1>
+    <p class="lede">像蜜蜂一样轻巧，像蜂巢一样有秩序。迅蜂陪你把网络走得更顺一点，把卡顿和缓冲留在身后。</p>
+    <div class="meta">
+      <span>三档套餐</span>
+      <span>多端覆盖</span>
+      <span>年付更省</span>
+    </div>
+  </header>
+
+  <section class="intro" id="about">
+    <h2>为什么叫迅蜂</h2>
+    <p>蜜蜂个头不大，却飞得又快又稳，还能记得回家的路。迅蜂想做的事情很简单：做一只勤快的小蜜蜂，帮你把每天打开网页、看视频、玩游戏时那段“等一等”的时间缩短一些。</p>
+    <p>我们没有那么多花哨的口号。你把流量交给迅蜂，迅蜂把顺滑还给你。基础需求用基础版，重度使用升旗舰版，团队一起上就选团队版，选哪个都不会踩空。</p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="num">01 / 轻巧</div>
+        <h3>轻得像花粉</h3>
+        <p>客户端体积克制，安装后不抢系统资源，老设备也能跑得不费力。</p>
+      </article>
+      <article class="card">
+        <div class="num">02 / 顺滑</div>
+        <h3>顺得像蜂路</h3>
+        <p>线路按用途分类整理，看视频、刷网页、打游戏各有各的道，互不打扰。</p>
+      </article>
+      <article class="card">
+        <div class="num">03 / 有序</div>
+        <h3>整得像蜂巢</h3>
+        <p>套餐权益写得明明白白，流量、设备数、节点池一目了然，不绕弯子。</p>
+      </article>
+      <article class="card">
+        <div class="num">04 / 贴心</div>
+        <h3>暖得像蜂蜜</h3>
+        <p>遇到问题随时找工单，旗舰版和团队版还有优先通道和专属经理。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="plans" id="plans">
+    <h2>选一套顺手的</h2>
+    <p>三档套餐像三级台阶，按你的使用强度往上走就好。月付灵活，年付更省，所有套餐都可以随时升级补差价。</p>
+
+    <div class="plans-list">
+
+      <article class="plan tier-1">
+        <div>
+          <h3>基础版</h3>
+          <div class="annual">按年付仅需 ¥150/年</div>
+          <ul>
+            <li>每月 100GB 高速流量</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体内容</li>
+            <li>普通线路节点池</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price">¥15<span>/月</span></div>
+          <a href="#" class="buy">选择基础版</a>
+        </div>
+      </article>
+
+      <article class="plan tier-2">
+        <div>
+          <span class="featured-tag">朋友最常选</span>
+          <h3>旗舰版</h3>
+          <div class="annual">按年付仅需 ¥350/年</div>
+          <ul>
+            <li>每月 300GB 高速流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7×24 优先工单支持</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price">¥35<span>/月</span></div>
+          <a href="#" class="buy">选择旗舰版</a>
+        </div>
+      </article>
+
+      <article class="plan tier-3">
+        <div>
+          <h3>团队版</h3>
+          <div class="annual">按年付仅需 ¥850/年</div>
+          <ul>
+            <li>每月 1000GB 高速流量</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+        </div>
+        <div>
+          <div class="price">¥85<span>/月</span></div>
+          <a href="#" class="buy">选择团队版</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="clients" id="clients">
+    <h2>在哪都能用</h2>
+    <p>迅蜂覆盖主流平台，一份账号多端通用。下面是各平台客户端的简要说明，方便你按设备对号入座。</p>
+
+    <div class="grid">
+      <article class="client">
+        <div class="platform">Windows</div>
+        <h3>迅蜂 Windows 客户端</h3>
+        <p>支持 Windows 10 及以上系统，安装后登录账号即可选择节点，适合桌面日常办公与观影。</p>
+      </article>
+      <article class="client">
+        <div class="platform">macOS</div>
+        <h3>迅蜂 macOS 客户端</h3>
+        <p>适配 Intel 与 Apple Silicon，菜单栏常驻，一键切换线路，配合旗舰版游戏加速效果更佳。</p>
+      </article>
+      <article class="client">
+        <div class="platform">Android</div>
+        <h3>迅蜂 Android 客户端</h3>
+        <p>支持 Android 9 及以上版本，可按应用分流，把想要加速的 App 单独走专线，其余走本地。</p>
+      </article>
+      <article class="client">
+        <div class="platform">iOS / iPadOS</div>
+        <h3>迅蜂 iOS 客户端</h3>
+        <p>适配 iPhone 与 iPad，支持小组件快捷开关，配合基础版即可满足通勤路上的流媒体需求。</p>
+      </article>
+      <article class="client">
+        <div class="platform">Linux</div>
+        <h3>迅蜂 Linux 客户端</h3>
+        <p>提供图形界面与命令行两种模式，适合开发者在本机和服务器上部署使用。</p>
+      </article>
+      <article class="client">
+        <div class="platform">路由器</div>
+        <h3>迅蜂 路由器固件</h3>
+        <p>兼容常见开源固件方案，配合团队版可为全屋设备统一接入，无需逐台安装客户端。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="guide" id="guide">
+    <h2>四步起飞</h2>
+    <p>从注册到连上节点，整个过程一般不超过五分钟。下面是给新朋友准备的简明步骤。</p>
+
+    <div class="steps">
+      <article class="step">
+        <h3>挑选套餐</h3>
+        <p>先看看自己平时用多少流量、几台设备。拿不准的话，从旗舰版开始最稳妥，朋友里十个有六个选它。</p>
+      </article>
+      <article class="step">
+        <h3>注册账号</h3>
+        <p>用一个常用邮箱注册迅蜂账号，完成套餐订阅后，流量和设备数会自动写入你的账户面板。</p>
+      </article>
+      <article class="step">
+        <h3>下载客户端</h3>
+        <p>到对应平台下载迅蜂客户端，用刚才注册的账号登录，节点列表会自动同步到你的设备上。</p>
+      </article>
+      <article class="step">
+        <h3>选择节点</h3>
+        <p>按用途选节点：看视频选流媒体线路，打游戏选 IPLC 专线，日常浏览选普通节点即可。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <h2>朋友常问的事</h2>
+    <p>这里把大家最常问的问题按主题整理好了，先看一眼，说不定你的疑问已经在里面。</p>
+
+    <div class="faq-group">
+      <h3>关于套餐</h3>
+      <div class="qa">
+        <div class="q">三档套餐最大的区别是什么？</div>
+        <div class="a">主要差别在流量、设备数和节点池。基础版适合轻度浏览，旗舰版多了 IPLC 游戏加速和全节点流媒体解锁，团队版则面向多人共用，设备数提升到 20 台，并配有专属客户经理。</div>
+      </div>
+      <div class="qa">
+        <div class="q">月付和年付可以切换吗？</div>
+        <div class="a">可以。先月付试用，觉得合适再补差价转年付；也可以直接年付，到期前在账户里切换续费周期。</div>
+      </div>
+      <div class="qa">
+        <div class="q">套餐之间能随时升级吗？</div>
+        <div class="a">支持随时升级，系统会按剩余时长自动计算补差金额，不需要重新注册账号。</div>
+      </div>
+    </div>
+
+    <div class="faq-group">
+      <h3>关于设备</h3>
+      <div class="qa">
+        <div class="q">一台账号能给几台设备用？</div>
+        <div class="a">基础版 3 台，旗舰版 5 台，团队版 20 台。同一账号在不同平台客户端登录会共享设备额度。</div>
+      </div>
+      <div class="qa">
+        <div class="q">换手机了要重新登录吗？</div>
+        <div class="a">需要在新设备上重新登录一次。如果设备数已满，可以在账户面板里把旧设备下线，再登录新设备。</div>
+      </div>
+      <div class="qa">
+        <div class="q">路由器算占用几个设备名额？</div>
+        <div class="a">路由器固件接入算 1 个设备名额，但通过路由器接入的局域网终端不再单独计数，适合家里设备多的朋友。</div>
+      </div>
+    </div>
+
+    <div class="faq-group">
+      <h3>关于使用</h3>
+      <div class="qa">
+        <div class="q">看视频选哪个节点比较好？</div>
+        <div class="a">旗舰版和团队版提供原生流媒体解锁节点，在客户端里会标注“流媒体”标签，选对应地区的标签节点即可。</div>
+      </div>
+      <div class="qa">
+        <div class="q">游戏加速怎么开？</div>
+        <div class="a">旗舰版及以上套餐包含 IPLC 专线游戏加速，在客户端节点列表中选择带“游戏”标签的线路，延迟和稳定性会比普通节点更好。</div>
+      </div>
+      <div class="qa">
+        <div class="q">流量用完了会怎样？</div>
+        <div class="a">流量用完后连接会暂停，不影响账号本身。你可以等下月周期刷新，或购买加油包补充流量。</div>
+      </div>
+      <div class="qa">
+        <div class="q">遇到连接问题找谁？</div>
+        <div class="a">所有套餐都支持工单系统。旗舰版享 7×24 优先工单，团队版另有专属客户经理一对一跟进。</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="row">
+      <div>
+        <p>迅蜂(Quick) —— 让网络轻盈如风，让连接有条不紊。</p>
+        <p class="small">本页面信息仅供参考，套餐权益与价格以订阅时账户面板展示为准。</p>
+      </div>
+      <div>
+        <p><a href="#top">回到顶部 ↑</a></p>
+        <p class="small">© 迅蜂 Quick</p>
+      </div>
+    </div>
+  </footer>
+
+</main><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
